@@ -17,14 +17,30 @@
 }
 .btn {
   background-color: #fd6e0a;
-  padding: 18px 35px;
+  padding: 12px 35px;
   color: white;
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
-
+.text-center{
+    text-align: center;
+    padding: 30px 0;
+}
+.btn.download-cv{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn.call{
+    background-color: white;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    display: inline-flex;
+    gap: 10px;
+}
 /* Main style */
 
 nav {
@@ -57,5 +73,213 @@ nav ul a {
 
 header {
   background-color: #fff8f3;
+  background: url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   padding-top: 30px;
 }
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 66px 38px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1{
+    font-size: 68px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 10px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+.about{
+    padding: 130px 200px 0;
+}
+.about .about-container{
+    background-color: #fff8f3;
+    text-align: center;
+    padding: 130px 156px;
+    border-radius: 8px;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card p{
+    font-size: 20px;
+    color: #757575;
+}
+.card h4{
+    font-size: 20px;
+    color: #474747;
+}
+.experience-section{
+    width: 71%;
+    max-width: 1140px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.experience-content{
+    text-align: center;
+}
+
+.experience-content h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.experience-content p{
+    font-size: 18px;
+    /* text-align: center; */
+    color: #757575;
+    padding: 15px 150px;
+}
+
+.experience-card{
+    max-width: 267px;
+    /* border: 2px solid tomato; */
+    box-shadow: 0 6px 50px 0 #cfc9c9;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.experience-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+}
+
+.experience-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    padding: 30px 0;
+}
+.experience-card p{
+    color: #757575;
+    /* padding-bottom: 30px; */
+    line-height: 28px;
+}
+.resume{
+    padding-top: 130px;
+}
+.resume-heading{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 113px;
+}
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+}
+.education h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.card-description{
+    padding: 15px 45px 15px 0;
+    line-height: 28px;
+}
+hr{
+    width: 480px;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 120px;
+    padding: 70px 0 140px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.social-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 20px;
+}
+.social-description{
+    width: 562px;
+    color: #474747;
+    padding-bottom: 30px;
+}
+.input-field{
+    padding-bottom: 24px;
+}
+.input-field input{
+    width: 461px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+}
+.input-field textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    border: none;
+}
+.input-field textarea::placeholder{
+    padding: 18px 30px;
+}
+.input-field input::placeholder{
+    padding-left: 30px;
+    color: #757575;
+}
+
